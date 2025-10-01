@@ -1,0 +1,402 @@
+[
+    {
+        "id": "g001",
+        "title": "Gravastar Mars Pro - Black",
+        "categoryId": "c1",
+        "price": 199.95,
+        "rating": 4.8,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/gravastarmarsprobluetoothspeakerbestdesign.webp?v=1744787131&width=600",
+        "description": "Altavoz Bluetooth de diseño mecha con cuerpo metálico, sonido estéreo y excelentes graves. Ideal para interior/exterior.",
+        "stock": 25
+    },
+    {
+        "id": "g002",
+        "title": "Gravastar Mars Pro Special Edition War-Damaged Yellow",
+        "categoryId": "c1",
+        "price": 279.95,
+        "rating": 4.7,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/6a3f480827c1bd233a25320b219f5a22.webp?v=1739255896&width=600",
+        "description": "Edición especial del Mars Pro con acabado «war-damaged», con todas las funciones del modelo estándar y estética única.",
+        "stock": 10
+    },
+    {
+        "id": "g003",
+        "title": "Gravastar Supernova Bluetooth Speaker - Matt Black",
+        "categoryId": "c1",
+        "price": 159.95,
+        "rating": 4.5,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/1_a625a4c9-38d2-43c2-835a-e5b47820717c.webp?v=1747966888&width=600",
+        "description": "Altavoz portátil iluminado con diseño futurista, sonido de calidad y patas retráctiles para posicionamiento.",
+        "stock": 30
+    },
+    {
+        "id": "g004",
+        "title": "Gravastar Mercury M2 - Transparent Black",
+        "categoryId": "c4",
+        "price": 79.95,
+        "rating": 4.6,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/GravaStar-Mercury-M2-Transparent-Black-Gaming-Mouse-PAW3395-Sensor-26K-DPI-82H-Battery-RGB-Ambidextrous-2.webp?v=1757660689&width=400",
+        "description": "Ratón gaming inalámbrico con sensor PAW3395, hasta 26.000 DPI, diseño transparente y luz RGB.",
+        "stock": 40
+    },
+    {
+        "id": "g005",
+        "title": "Gravastar Mercury X Pro 8KHz Wireless Gaming Mouse",
+        "categoryId": "c4",
+        "price": 139.95,
+        "rating": 4.7,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/gravastar-Mercury-X-Pro-8K-Wireless-Gaming-Mouse-vibrant-RGB-lighting-personalized-setup.webp?v=1753341811&width=600",
+        "description": "Ratón gaming de alta frecuencia con polling de 8000 Hz, diseño esquelético y máxima precisión.",
+        "stock": 20
+    },
+    {
+        "id": "g006",
+        "title": "Gravastar Mercury K1 Pro - CyberFlare",
+        "categoryId": "c4",
+        "price": 179.95,
+        "rating": 4.5,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/Mercury-K1-Pro-Gaming-Keyboard-CyberFlare-75-Mechanical-Keyboard.webp?v=1757659043&width=600",
+        "description": "Teclado mecánico 75 % con diseño futurista, RGB personalizable y switches de alto rendimiento.",
+        "stock": 15
+    },
+    {
+        "id": "g007",
+        "title": "Gravastar Alpha65 GaN 65W Fast Charger",
+        "categoryId": "c6",
+        "price": 49.95,
+        "rating": 4.4,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/Gan-fast-charger-65w-power-adapter-gravastar-alpha65-robot-charger-white-35.webp?v=1737628326&width=600",
+        "description": "Cargador GaN compacto de 65W con múltiples puertos USB-C/USB-A, ideal para laptops y móviles.",
+        "stock": 50
+    },
+    {
+        "id": "g008",
+        "title": "Gravastar Delta35 35W GaN Fast Charger",
+        "categoryId": "c6",
+        "price": 29.95,
+        "rating": 4.3,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/Gan-fast-charger-35w-power-adapter-gravastar-delta35-robot-charger-typec-white-67.webp?v=1737689774&width=600",
+        "description": "Cargador GaN de 35 W con diseño portátil, ideal para smartphone y tablets con carga rápida.",
+        "stock": 60
+    },
+    {
+        "id": "g009",
+        "title": "Mercury K1 Pro Special Edition - Battle-Worn Yellow",
+        "categoryId": "c6",
+        "price": 199.95,
+        "rating": 4.8,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/gravastar-Mercury-K1-Pro-Battle-Worn-Yellow-gaming-keyboard-ergonomic-design-customizable-RGB.webp?v=1737699957&width=600",
+        "description": "Nuestro proceso de pintado a mano captura la belleza de las imperfecciones, haciendo que cada producto sea verdaderamente único. Las sutiles variaciones en trazos y tonos infunden a cada pieza una personalidad propia, garantizando que cada K1 Pro Battle-Worn Yellow sea único en el mundo.",
+        "stock": 60
+    },
+    {
+        "id": "g010",
+        "title": "Mercury K1 Pro Special Edition - Cyberpunk",
+        "categoryId": "c6",
+        "price": 199.95,
+        "rating": 4.8,
+        "thumbnail": "https://www.gravastar.com/cdn/shop/files/75-mechanical-keyboard-gaming-wireless-RGB-gravastar-mercury-k1pro-cyberpunk-8.webp?v=1757658696&width=600",
+        "description": "Nuestro proceso de pintado a mano captura la belleza de las imperfecciones, haciendo que cada producto sea verdaderamente único. Las sutiles variaciones en trazos y tonos infunden a cada pieza una personalidad propia, garantizando que cada K1 Pro Battle-Worn Yellow sea único en el mundo.",
+        "stock": 60
+    },
+    {
+        "id": "s001",
+        "title": "Samsung Galaxy Buds2 Pro",
+        "categoryId": "c2",
+        "price": 229.99,
+        "rating": 4.7,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/latin/2208/gallery/latin-galaxy-buds2-pro-r510-sm-r510nlvalta-533186862?$684_547_PNG$",
+        "description": "Auriculares inalámbricos con cancelación de ruido activa, audio 24-bit y diseño compacto.",
+        "stock": 45
+    },
+    {
+        "id": "s002",
+        "title": "Samsung Galaxy Buds Live",
+        "categoryId": "c2",
+        "price": 169.99,
+        "rating": 4.3,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/latin/sm-r410nzkalta/gallery/latin-galaxy-buds-core-r410-sm-r410nzkalta-547955372?$684_547_PNG$",
+        "description": "Auriculares con diseño tipo frijol (bean), cancelación de ruido ligera y buen ajuste para uso diario.",
+        "stock": 60
+    },
+    {
+        "id": "s003",
+        "title": "Samsung Wireless Charger Pad Trio",
+        "categoryId": "c6",
+        "price": 119.99,
+        "rating": 4.5,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/es-wireless-charger-trio-ep-p6300tbegeu-topblack-315563868?$Q90_2052_1641_JPG$",
+        "description": "Estación de carga inalámbrica para tres dispositivos: smartphone, auriculares y reloj.",
+        "stock": 30
+    },
+    {
+        "id": "s004",
+        "title": "Samsung Galaxy Watch6",
+        "categoryId": "c7",
+        "price": 279.99,
+        "rating": 4.6,
+        "thumbnail": "https://images.samsung.com/pe/galaxy-watch6/feature/galaxy-watch6-kv-pc.jpg?imwidth=1080",
+        "description": "Reloj inteligente con monitoreo avanzado de salud, GPS y soporte para aplicaciones nativas de Samsung.",
+        "stock": 35
+    },
+    {
+        "id": "s005",
+        "title": "Samsung Galaxy Watch6 Classic",
+        "categoryId": "c7",
+        "price": 349.99,
+        "rating": 4.7,
+        "thumbnail": "https://images.samsung.com/es/galaxy-watch6-classic/feature/galaxy-watch6-classic-kv-pc.jpg?imwidth=1080",
+        "description": "Versión clásica del Watch6 con bisel giratorio, diseño elegante y funciones completas de salud.",
+        "stock": 25
+    },
+    {
+        "id": "s006",
+        "title": "Samsung Galaxy S23 Ultra",
+        "categoryId": "c5",
+        "price": 1199.99,
+        "rating": 4.8,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/latin/2302/gallery/latin-galaxy-s23-s916-sm-s916blikgto-thumb-534856605?$216_216_PNG$",
+        "description": "Smartphone premium con cámara de 200 MP, S Pen integrado y pantalla inmersiva.",
+        "stock": 20
+    },
+    {
+        "id": "s007",
+        "title": "Samsung Galaxy S23",
+        "categoryId": "c5",
+        "price": 799.99,
+        "rating": 4.6,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/latin/2302/gallery/latin-galaxy-s23-s918-446912-sm-s918bzgjgto-thumb-534878084?$216_216_PNG$",
+        "description": "Versión estándar de la serie S23 con buen rendimiento y cámara balanceada.",
+        "stock": 50
+    },
+    {
+        "id": "s008",
+        "title": "Samsung Galaxy Watch Fast Wireless Charger",
+        "categoryId": "c6",
+        "price": 49.99,
+        "rating": 4.4,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/cl/ep-or900bbegww/gallery/cl-fast-wireless-charger-ep-or900-ep-or900bbegww-535562571?$684_547_PNG$",
+        "description": "Cargador inalámbrico rápido para Galaxy Watch con base magnética para carga cómoda.",
+        "stock": 40
+    },
+    {
+        "id": "s009",
+        "title": "Samsung Galaxy Buds FE",
+        "categoryId": "c2",
+        "price": 99.99,
+        "rating": 4.2,
+        "thumbnail": "https://shop.samsung.com/latin/ecu/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-r400_000_black_white_3.png",
+        "description": "Auriculares de entrada con buen sonido y compatibilidad con el ecosistema Samsung.",
+        "stock": 80
+    },
+    {
+        "id": "s010",
+        "title": "Samsung Galaxy S23+",
+        "categoryId": "c5",
+        "price": 999.99,
+        "rating": 4.7,
+        "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/latin/2302/gallery/latin-galaxy-s23-s916-sm-s916blikgto-thumb-534856605?$216_216_PNG$",
+        "description": "Versión Plus del S23 con mayor autonomía y pantalla ampliada.",
+        "stock": 30
+    },
+    {
+        "id": "a001",
+        "title": "Apple iPhone 15 Pro",
+        "categoryId": "c5",
+        "price": 1099.00,
+        "rating": 4.8,
+        "thumbnail": "https://th.bing.com/th/id/OIP.tz9uisfpGy-dUhoaEXfnYAHaHa?w=140&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Smartphone de gama alta con chip A17 Pro, pantalla ProMotion 120 Hz y sistema de cámara mejorado.",
+        "stock": 35
+    },
+    {
+        "id": "a002",
+        "title": "Apple iPhone 15",
+        "categoryId": "c5",
+        "price": 799.00,
+        "rating": 4.7,
+        "thumbnail": "https://th.bing.com/th/id/OIP.NE82ly-PRt-Pa0Q_s1A_sQHaEK?w=295&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Modelo base con chip A16, pantalla OLED 60/120 Hz y excelentes cámaras para uso diario.",
+        "stock": 50
+    },
+    {
+        "id": "a003",
+        "title": "Apple MacBook Air M2 13\"",
+        "categoryId": "c5",
+        "price": 1199.00,
+        "rating": 4.9,
+        "thumbnail": "https://th.bing.com/th/id/OIP.V0zHBzuvrdVukfC8DmNNNAHaEK?w=316&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Laptop ultradelgada con chip Apple Silicon M2, gran autonomía y teclado excelente para uso cotidiano y desarrollo.",
+        "stock": 20
+    },
+    {
+        "id": "a004",
+        "title": "Apple AirPods Pro (2nd Gen)",
+        "categoryId": "c2",
+        "price": 249.00,
+        "rating": 4.7,
+        "thumbnail": "https://th.bing.com/th/id/OIP.WmrDAbmUFGD_R8LbuO5nRQHaEK?w=319&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Auriculares in-ear con cancelación de ruido activa, audio espacial y estuche de carga MagSafe.",
+        "stock": 45
+    },
+    {
+        "id": "a005",
+        "title": "Apple Watch Series 9",
+        "categoryId": "c7",
+        "price": 399.00,
+        "rating": 4.6,
+        "thumbnail": "https://th.bing.com/th/id/OIP.QELyA_ITTrFaVpJ4buYPfgHaEK?w=328&h=184&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Reloj inteligente con nuevas funciones de salud, pantalla siempre encendida más brillante y chip S9.",
+        "stock": 30
+    },
+    {
+        "id": "a006",
+        "title": "Apple iPad Air (M1) 11\"",
+        "categoryId": "c5",
+        "price": 699.00,
+        "rating": 4.8,
+        "thumbnail": "https://th.bing.com/th/id/OIP.e79S3rlwzW4X7zTq76LrSAHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Tableta con chip M1, soporte para Magic Keyboard y Apple Pencil, ideal para creatividad y productividad.",
+        "stock": 25
+    },
+    {
+        "id": "a007",
+        "title": "Apple MagSafe Charger",
+        "categoryId": "c6",
+        "price": 39.00,
+        "rating": 4.5,
+        "thumbnail": "https://th.bing.com/th/id/OIP.9ZDnb1P6bVYSrvtQfbtoWQHaGD?w=239&h=196&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Cargador magnético inalámbrico diseñado para iPhone 12 en adelante y con soporte MagSafe.",
+        "stock": 60
+    },
+    {
+        "id": "a008",
+        "title": "Apple USB-C to MagSafe 3 Cable",
+        "categoryId": "c6",
+        "price": 29.00,
+        "rating": 4.4,
+        "thumbnail": "https://th.bing.com/th/id/OIP.dzP7PDLT8nUwx8qtBGGcQAHaFG?w=263&h=181&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Cable USB-C a MagSafe 3 de 1 metro para carga de MacBook y dispositivos compatibles.",
+        "stock": 100
+    },
+    {
+        "id": "a009",
+        "title": "Apple HomePod mini",
+        "categoryId": "c1",
+        "price": 99.00,
+        "rating": 4.5,
+        "thumbnail": "https://th.bing.com/th/id/OIP.4qAYk07gQmfxDhSD0zREigHaEK?w=297&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Altavoz inteligente compacto con audio de calidad y control con Siri integrado para el hogar.",
+        "stock": 40
+    },
+    {
+        "id": "a010",
+        "title": "Apple TV 4K (3rd Gen)",
+        "categoryId": "c5",
+        "price": 149.00,
+        "rating": 4.4,
+        "thumbnail": "https://th.bing.com/th/id/OIP.hgbsrA2-4qrEt9sR6FI85AHaE7?w=261&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Dispositivo de streaming con soporte para HDR10+ y chip A15, ideal para disfrutar contenido en TV.",
+        "stock": 35
+    },
+    {
+        "id": "m001",
+        "title": "Motor Nuclear MNP-XH01 Bai Qi Model Kit",
+        "categoryId": "c8",
+        "price": 72.99,
+        "rating": 4.2,
+        "thumbnail": "https://th.bing.com/th/id/OIP.BZ7M4zZUwdhf6UJgVvV46AHaHa?w=220&h=220&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Kit de modelo Mecha de Bai Qi, incluye piezas desmontables para montaje personalizado.",
+        "stock": 20
+    },
+    {
+        "id": "m002",
+        "title": "Motor Nuclear MNP-XH02 Cao Ren Model Kit",
+        "categoryId": "c8",
+        "price": 69.99,
+        "rating": 4.3,
+        "thumbnail": "https://th.bing.com/th/id/OIP.PWbnDV_ySdOgwUbTW8P6oQHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "description": "Kit Mecha de Cao Ren con detalles refinados y partes intercambiables para poses dinámicas.",
+        "stock": 15
+    },
+    {
+        "id": "m003",
+        "title": "Motor Nuclear MNP-XH04 Ne Zha Model Kit",
+        "categoryId": "c8",
+        "price": 78.99,
+        "rating": 4.4,
+        "thumbnail": "https://th.bing.com/th/id/OIP.VFMnjlEVWnwkocz0vNyhrAHaHa?w=199&h=199&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Kit inspirado en Ne Zha, con accesorios especiales y estructura robusta para exhibición.",
+        "stock": 18
+    },
+    {
+        "id": "m004",
+        "title": "Motor Nuclear MNP-XH05 Zhao Yun Model Kit",
+        "categoryId": "c8",
+        "price": 119.99,
+        "rating": 4.5,
+        "thumbnail": "https://th.bing.com/th/id/OIP.e6M8K5Lv4-F1k-xyV5NVYwHaEK?w=267&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Kit de Zhao Yun con detalles metálicos y mecanizados, ideal para coleccionistas avanzados.",
+        "stock": 12
+    },
+    {
+        "id": "m005",
+        "title": "Motor Nuclear MNQ-XH04 Transforming Figure",
+        "categoryId": "c8",
+        "price": 189.99,
+        "rating": 4.6,
+        "thumbnail": "https://th.bing.com/th/id/OIP.4qqUm3b80QmFWYuaDlfPLgAAAA?w=186&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Figura transformable 1/72 que cambia entre modo robot y modo bestia, con partes móviles.",
+        "stock": 8
+    },
+    {
+        "id": "m006",
+        "title": "Motor Nuclear MNP-CR01 Yuheng Star Leader",
+        "categoryId": "c8",
+        "price": 89.99,
+        "rating": 4.3,
+        "thumbnail": "https://th.bing.com/th/id/OIP.K9ZCXUzaRfadwgJRi8ghZQHaHa?w=218&h=218&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Edición especial con acabado de batalla, incluye piezas adicionales de armamento.",
+        "stock": 10
+    },
+    {
+        "id": "m007",
+        "title": "Motor Nuclear MNQ-XH06 LongJu Model Kit",
+        "categoryId": "c8",
+        "price": 289.99,
+        "rating": 4.5,
+        "thumbnail": "https://th.bing.com/th/id/OIP.qi2eAq6GKr1TumhMN6euaQHaE8?w=234&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Kit de LongJu con gran escala y detalles finos, ideal para colecciones destacadas.",
+        "stock": 7
+    },
+    {
+        "id": "m008",
+        "title": "Motor Nuclear MNQ-XH07 Wei Yuan Sword Fighting Version",
+        "categoryId": "c8",
+        "price": 41.99,
+        "rating": 4.1,
+        "thumbnail": "https://th.bing.com/th/id/OIP.ovn0yP21iSRuxGABhPTqPgHaHa?w=209&h=209&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Versión de combate con espada de Wei Yuan, articulaciones dinámicas para pose.",
+        "stock": 25
+    },
+    {
+        "id": "m009",
+        "title": "Motor Nuclear MNP-XH12 Gan Jiang Model Kit",
+        "categoryId": "c8",
+        "price": 79.99,
+        "rating": 4.2,
+        "thumbnail": "https://th.bing.com/th?id=OIF.2%2blfVTZGajPyaHOpWk7Csg&w=263&h=197&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        "description": "Kit de Gan Jiang, incluye partes decorativas y soporte para exhibición.",
+        "stock": 14
+    },
+    {
+        "id": "m010",
+        "title": "Motor Nuclear MNQ-XH08 Sun Wukong The Monkey King",
+        "categoryId": "c8",
+        "price": 289.99,
+        "rating": 4.4,
+        "thumbnail": "https://i.ytimg.com/vi/htX2i0KVV8A/maxresdefault.jpg",
+        "description": "Figura temática del Rey Mono con accesorios mágicos y opciones de configuración múltiple.",
+        "stock": 5
+    }
+]
