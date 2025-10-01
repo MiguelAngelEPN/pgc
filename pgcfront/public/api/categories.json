@@ -1,0 +1,9 @@
+[
+  { "id": "c1", "name": "Speakers" },
+  { "id": "c2", "name": "Headphones" },
+  { "id": "c3", "name": "Smart Lighting" },
+  { "id": "c4", "name": "Gaming Accessories" },
+  { "id": "c5", "name": "Smart Gadgets" },
+  { "id": "c6", "name": "Chargers & Power" },
+  { "id": "c7", "name": "Wearables" }
+]

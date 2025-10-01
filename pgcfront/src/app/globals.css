@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --gravastar-green: #1eff05;
+  /* Verde neón */
+  --gravastar-cyan: #2ef8a0;
+  /* Cian brillante */
+  --gravastar-magenta: #ff0571;
+  /* Magenta intenso */
+  --gravastar-purple: #ae3dff;
+  /* Púrpura fluorescente */
+  --gravastar-orange: #ffa300;
+  /* Naranja eléctrico */
+  --gravastar-yellow: #e7c500;
+  /* Amarillo vibrante */
+  --gravastar-blue: #13a8fe;
+  /* Azul neón */
+  --gravastar-background: #000117;
+  /* Fondo oscuro para contraste */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/*estilos de botón para agregar a carrito*/
+.add-to-cart {
+  background: var(--gravastar-magenta);
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.add-to-cart:hover {
+  background: var(--gravastar-purple);
 }
