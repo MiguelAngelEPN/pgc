@@ -91,6 +91,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
                             alt={product.title}
                             width={400}
                             height={256}
+                            loading="lazy"
                             className="w-full h-64 object-cover rounded-xl border border-[var(--gravastar-blue)] mb-4"
                         />
 
