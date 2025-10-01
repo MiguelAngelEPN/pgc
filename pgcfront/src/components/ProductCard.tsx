@@ -81,9 +81,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <button className="add-to-cart">Agregar al carrito</button>
       </div>
-      {showModal && (
-        <ProductModal product={product} onClose={() => setShowModal(false)} />
-      )}
 
     </>
   );
