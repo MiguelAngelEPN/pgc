@@ -79,6 +79,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             alt={product.title}
             width={200}
             height={200}
+            loading="lazy"
             className="product-img "
           />
           <button
@@ -108,7 +109,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <button className="add-to-cart" onClick={() => toggleShoppingCart()}>Agregar al carrito</button>
       </div>
-
+      {showModal && (
+        <ProductModal product={product} onClose={() => setShowModal(false)} />
+      )}
 
     </>
   );
