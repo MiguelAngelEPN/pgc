@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "@/components/ProductCard";
 import { Product } from '../../types/index';
 import { MdOutlineFavorite } from "react-icons/md";
-import { Header } from "../../components/Header";
 
 const FAVORITES_KEY = "favorites";
 
@@ -42,7 +41,6 @@ export default function FavoritesPage() {
       className="min-h-screen px-6 py-3 pt-[75px]"
       style={{ backgroundColor: "var(--gravastar-background)" }}
     >
-      <Header />
       <h1 className="flex items-center justify-center w-full text-3xl font-bold mb-6 text-white">
         <MdOutlineFavorite />
         <span className="ml-2">Mis Favoritos</span>

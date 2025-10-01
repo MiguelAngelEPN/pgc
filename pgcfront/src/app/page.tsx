@@ -4,10 +4,9 @@ import ProductCard from "../components/ProductCard";
 import { FaSearch } from 'react-icons/fa';
 import { useRouter, useSearchParams } from "next/navigation";
 import { Pagination } from "../components/Pagination";
-import { Header } from "../components/Header";
 import { Product } from '../types/index';
 
-function HomeContent(){
+function HomeContent() {
   // Router y parámetros de búsqueda
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -17,22 +16,21 @@ function HomeContent(){
   const [search, setSearch] = useState<string>("");
   const [itemsPerPage, setItemsPerPage] = useState<number>(10);
   const [currentPage, setCurrentPage] = useState<number>(1);
+  const [totalPages, setTotalPages] = useState<number>(1);
+  //control de tiempo para busquedade items
+  const [debouncedSearch, setDebouncedSearch] = useState<string>("");
 
   // Cargar datos desde public/api
   useEffect(() => {
     const fetchData = async () => {
-      const productsRes = await fetch("/api/products.json");
-      const productsData = await productsRes.json();
-      setProducts(productsData);
-
-      //const categoriesRes = await fetch("/api/categories.json");
-      //const categoriesData = await categoriesRes.json();
-      //setCategories(categoriesData);
+      const res = await fetch(`/api/products?page=${currentPage}&items=${itemsPerPage}&search=${debouncedSearch}`);
+      const data = await res.json();
+      setProducts(data.products);
+      setTotalPages(data.totalPages);
     };
     fetchData();
-  }, []);
-  //control de tiempo para busquedade items
-  const [debouncedSearch, setDebouncedSearch] = useState<string>("");
+  }, [currentPage, itemsPerPage, debouncedSearch]);
+
 
   useEffect(() => {
     const handler = setTimeout(() => {
@@ -42,19 +40,6 @@ function HomeContent(){
     return () => clearTimeout(handler);
   }, [search]);
 
-
-  // Filtrar productos por búsqueda
-  const filteredProducts = products.filter((p) =>
-    p.title.toLowerCase().includes(debouncedSearch.toLowerCase())
-  );
-
-  // Calcular paginación
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedProducts = filteredProducts.slice(
-    startIndex,
-    startIndex + itemsPerPage
-  );
   //obtener valores de url
   useEffect(() => {
     const query = searchParams.get("search") || "";
@@ -78,7 +63,7 @@ function HomeContent(){
 
   return (
     <div className="pt-[75px] px-6 py-3 bg-[var(--gravastar-background)] min-h-screen text-white">
-      <Header />
+
 
       {/* Barra de búsqueda + combo items por página */}
       <div className="flex items-center gap-4 mb-6 text-white sm:flex-row flex-col">
@@ -114,11 +99,11 @@ function HomeContent(){
 
       {/* Grid de productos */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {paginatedProducts.length === 0 ? (
+        {products.length === 0 ? (
           <p className="text-center col-span-full">No se encontraron productos.</p>
         ) : (
           <>
-            {paginatedProducts.map((product) => (
+            {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </>

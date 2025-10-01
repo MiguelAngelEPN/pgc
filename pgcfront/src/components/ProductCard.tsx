@@ -8,12 +8,14 @@ import { IoOpen } from "react-icons/io5";
 import Image from "next/image";
 
 const FAVORITES_KEY = "favorites";
+const Cart_KEY = "shoppingcart";
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [isFavorite, setIsFavorite] = useState<boolean>(false);
+  const [shoppingCart, setShoppingCart] = useState<boolean>(false);
   const [showModal, setShowModal] = useState(false);
 
-  // Leer favoritos desde localStorage al cargar
+  //---- Leer favoritos desde localStorage al cargar
   useEffect(() => {
     const storedFavorites = JSON.parse(
       localStorage.getItem(FAVORITES_KEY) || "[]"
@@ -29,16 +31,41 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
     let updatedFavorites: string[];
 
-    if (isFavorite) {
-      // Si ya está, lo quitamos
+    if (isFavorite) {// Si ya está, lo quitamos
       updatedFavorites = storedFavorites.filter((id) => id !== product.id);
-    } else {
-      // Si no está, lo agregamos
+    } else {// Si no está, lo agregamos
       updatedFavorites = [...storedFavorites, product.id];
     }
 
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(updatedFavorites));
     setIsFavorite(!isFavorite);
+  };
+
+  //---- Leer carrito de compras de localStorage al cargar
+  useEffect(() => {
+    const storedFavorites = JSON.parse(
+      localStorage.getItem(Cart_KEY) || "[]"
+    ) as string[];
+    setShoppingCart(storedFavorites.includes(product.id));
+  }, [product.id]);
+
+  // Alternar favorito
+  const toggleShoppingCart = () => {
+    const storedFavorites = JSON.parse(
+      localStorage.getItem(Cart_KEY) || "[]"
+    ) as string[];
+
+    let updatedFavorites: string[];
+
+    if (shoppingCart) {// Si ya está, lo quitamos
+      updatedFavorites = storedFavorites.filter((id) => id !== product.id);
+    } else {// Si no está, lo agregamos
+      updatedFavorites = [...storedFavorites, product.id];
+    }
+
+    localStorage.setItem(Cart_KEY, JSON.stringify(updatedFavorites));
+    setShoppingCart(!shoppingCart);
+    window.dispatchEvent(new CustomEvent('cart-changed'));
   };
 
   return (
@@ -79,8 +106,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           {product.stock > 0 ? `Stock: ${product.stock}` : "Agotado"}
         </p>
 
-        <button className="add-to-cart">Agregar al carrito</button>
+        <button className="add-to-cart" onClick={() => toggleShoppingCart()}>Agregar al carrito</button>
       </div>
+
 
     </>
   );
