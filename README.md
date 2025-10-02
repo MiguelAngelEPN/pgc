@@ -60,6 +60,26 @@ Ejecutando en **Next.js** en el puerto **3000**:
    npm run test
 
 
+## 🚀 Ejecución con Docker
+Este proyecto incluye un Dockerfile que permite construir y ejecutar la aplicación en un contenedor.
+
+
+1. Construir la imagen: Desde la raíz del proyecto, ejecutar.
+   ```bash
+   docker build -t my-nextjs-app .
+
+2. Ejecutar el contenedor:Para correr la aplicación en el puerto 3000.
+   ```bash
+   docker run -d -p 3000:3000 --name my-nextjs-app --restart always my-nextjs-app
+   
+3. Detener el contenedor
+   ```bash
+   docker stop my-nextjs-app
+   
+4. Reiniciar el contenedor
+   ```bash
+   docker start my-nextjs-app
+   
 ## 🧪 Tests implementados
 ✔️ Búsqueda con debounce
 
